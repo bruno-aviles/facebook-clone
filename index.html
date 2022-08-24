@@ -20,7 +20,7 @@
                 </div>
                 <div class="header__logo-search">
                     <i class="fas fa-search"></i>
-                    <input type="text">
+                    <input type="text" placeholder="Search Facebook">
                 </div>
             </div>
             <div class="header__menu-tabs">
@@ -45,7 +45,11 @@
                     <i class="fa fa-store"></i>
                 </div>
                 <div class="header__menu-tab">
-                    <i class="fa fa-users"></i>
+                    <i class="fa fa-users">
+                        <div class="header__notification-bubble">
+                            5
+                        </div>
+                    </i>
                 </div>
             </div>
             <div class="header__acount">
@@ -56,10 +60,18 @@
                         <i class="header__link-icon fas fa-plus"></i>
                     </a>
                     <a href="#" class="header__circle-link">
-                        <i class="header__link-icon fab fa-facebook-messenger"></i>
+                        <i class="header__link-icon fab fa-facebook-messenger">
+                            <div class="header__notification-bubble">
+                                8
+                            </div>
+                        </i>
                     </a>
                     <a href="#" class="header__circle-link">
-                        <i class="header__link-icon fas fa-bell"></i>
+                        <i class="header__link-icon fas fa-bell">
+                            <div class="header__notification-bubble">
+                                16
+                            </div>
+                        </i>
                     </a>
                     <a href="#" class="header__circle-link">
                         <i class="header__link-icon fas fa-sort-down"></i>
@@ -67,5 +79,95 @@
                 </div>
             </div>
         </header>
+        <section class="content-area content-area--feed">
+            <section class="sidenav">
+                <div class="sidenav__item">
+                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="profile picture" class="sidenav__item-img">
+                    <span class="sidenav__item-title">
+                        Jane Doe
+                    </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <span class="sidenav__item-title">
+                        Friends
+                    </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-flag"></i>
+                    </div>
+                    <span class="sidenav__item-title">
+                        Pages
+                        <span class="sidenav__item-notification">
+                            <div class="sidenav__item-notification-circle"></div>9+ new
+                        </span>
+                    </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <span class="sidenav__item-title">
+                        Groups
+                        <span class="sidenav__item-notification">
+                            <div class="sidenav__item-notification-circle"></div>3+ new
+                        </span>
+                    </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <span class="sidenav__item-title">
+                        Marketplace
+                    </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle">
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <span class="sidenav__item-title">
+                        See More
+                    </span>
+                </div>
+                <!-- Seperator -->
+                <div class="sidenav__line"></div>
+                <!-- Seperator -->
+                <span class="sidenav__heading-title">
+                    Your Shortcuts
+                </span>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <span class="sidenav__item-title">
+                        Coding Phase Groups
+                    </span>
+                </div>
+                <div class="sidenav__item">
+                    <div class="sidenav__item-icon sidenav__item-icon--circle-white">
+                        <i class="fas fa-user-friends"></i>
+                    </div>
+                    <span class="sidenav__item-title">
+                        Welding Community
+                    </span>
+                </div>
+                <div class="sidenav__item">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReJ1nBcSUlqiG-dvTl7Xgn0nWAkvR1jNVNNA&usqp=CAU" alt="profile picture" class="sidenav__item-img">
+                    <span class="sidenav__item-title">
+                        Punk Rock
+                    </span>
+                </div>
+                <div class="sidenav__item">
+                    <img src="https://i1.sndcdn.com/artworks-mbMr537kfjHyqQis-6JzKSA-t500x500.jpg" alt="profile picture" class="sidenav__item-img">
+                    <span class="sidenav__item-title">
+                        Yaegerists
+                    </span>
+                </div>
+            </section>
+        </section>
     </body>
 </html>
