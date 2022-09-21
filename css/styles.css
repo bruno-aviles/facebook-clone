@@ -580,6 +580,110 @@ header{
     font-weight: 700;
     z-index: 3;
 }
+.sidenav--right{
+    width: 25%;
+}
+.sidenav__heading-container{
+    display: flex;
+    justify-content: space-between;
+}
+.sidenav__category .sidenav-item{
+    display: flex;
+    align-items: center;
+}
+.sidenav__actions{
+    margin-top: 8px;
+}
+.sidenav__action-item .fa-comments,
+.sidenav__action-item .fa-bell,
+.sidenav__action-item .fa-bullhorn{
+    color: var(--ligth-color-text);
+    margin: 0 0 8px 1rem;
+}
+.sidnav__action-text{
+    color: var(--ligth-color-text);
+    margin-left: .5rem;
+}
+.sidenav__heading-more{
+    color: var(--fb-blue);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+
+.friend-request__container{
+    display: flex;
+}
+.friend-request__image{
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+.friend-request__action{
+    width: 100%;
+    margin-left: 8px;
+    margin-bottom: 16px;
+}
+.friend-request__request-info{
+    display: flex;
+    justify-content: space-between;
+}
+.friend-request__name{
+    font-weight: 600;
+}
+.friend-request__date{
+    color: var(--ligth-color-text);
+}
+.friend-request__mutual-friends{
+    font-weight: 400;
+    color: var(--ligth-color-text);
+    margin-top: 8px;
+}
+.friend-request__confirmation{
+    margin-top: 8px;
+}
+.friend-request__confirm{
+    font-size: 18px;
+    padding: .5em 1.5em;
+    border-radius: 5px;
+    background: var(--fb-blue);
+    color: var(--fb-white);
+    border: none;
+}
+.friend-request__delete{
+    font-size: 18px;
+    font-weight: 600;
+    padding: .5em 1.5em;
+    border-radius: 5px;
+    background: var(--button-link);
+    color: var(--dark-color-text);
+    border: none;
+}
+.contacts__actions .fa-video,
+.contacts__actions .fa-search,
+.contacts__actions .fa-ellipsis-h{
+    margin: 0 8px;
+}
+.sidenav__item-contact-status{
+    position: relative;
+}
+.sidenav__item-contact{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.contact__status--online{
+    height: 15px;
+    width: 15px;
+    border: solid 2px white;
+    background-color: var(--fb-green);
+    border-radius: 50%;
+    position: absolute;
+    right: 12px;
+    bottom: 2px;
+}
 /* Any device that is under 1300px */
 @media only screen and (max-width: 1300px){
     .header__menu-tabs{
@@ -590,7 +694,8 @@ header{
     }
 }
 @media only screen and (max-width: 1000px){
-    .sidenav{
+    .sidenav,
+    .sidenav--right{
         display: none;
     }
 }
